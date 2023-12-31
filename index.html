@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
     <title>El Nucleo | Ppal</title>
 </head>
 <body>
     <!-- Cabecera -->
-    <header class="">
+    <header>
         <nav class="navbar container">
             <picture class="navbar_logo">
                 <img src="./img/titulo_negro.svg" alt="">
@@ -15,7 +16,7 @@
             <ul class="navbar_menu">
                 <li class="navbar_item"><a class="navbar_item_link" href="">Archivo</a></li>
                 <li class="navbar_item"><a class="navbar_item_link" href="">Temas</a></li>
-                <li class="navbar_item"><a class="navbar_item_link" href="">Tetimonios</a></li>
+                <li class="navbar_item"><a class="navbar_item_link" href="">Testimonios</a></li>
                 <li class="navbar_item"><a class="navbar_item_link" href="">Acerca de..</a></li>
                 <li class="navbar_item"><a class="navbar_item_link" href="">Contáctanos</a></li>
             </ul>
@@ -23,61 +24,151 @@
     </header>
     <!-- Cuerpo del sitio -->
     <main class="main_container">
-        <section class="Hero container">
-                <div class="hero_titles">
-                    <p class="hero_titles_text">Marco de trabajo</p>
-                    <p class="hero_titles_text">PROMOVEMOS</p>
-                    <p class="hero_titles_text">Adaptabilidad, Desarrollo Personal</p>
-                    <p class="hero_titles_text">Bienestar</p>
+        <section class="Hero">
+<!--             <div class="hero_cuadros_c3"></div> -->
+            <div class="hero_cuadros_c2"></div>
+            <div class="hero_cuadros_c1"></div>
+            <div class="hero_titles container">
+                <p class="hero_titles_text">Marco de trabajo</p>
+                <p class="hero_titles_text_1">PROMOVEMOS</p>
+                <p class="hero_titles_text2">Adaptabilidad, Desarrollo Personal y Bienestar</p>
+                <a class="hero_title_link" href="">Contactanos</a>
+            </div>
+        </section>
+        <!-- Barra lateral -->
+        <div class="container_body container">
+            <section class="aside">
+                <aside class="aside_container container">
+                    <form class="aside_form" action="">
+                        <p>Buscar</p>
+                        <label for="">Encontrar Artículo</label>
+                        <input type="text">
+                    </form>
+                    
+                    <form class="aside_form" action="">
+                        <p>Suscribirse</p>
+                        <label for="">Correo Electrónico</label>
+                        <input type="text">
+                    </form>
                     <a class="hero_title_link" href="">Contactanos</a>
-                </div>
-                <div class="hero_cuadros_c1">color1</div>
-                <div class="hero_cuadros_c2">color2</div>
-                <div class="hero_cuadros_c3">color3</div>
-        </section>
-        <section class="aside">
-            <aside class="aside_container container">
-                <form class="aside_form" action="">
-                    <p>Buscar</p>
-                    <label for="">Encontrar Artículo</label>
-                    <input type="text">
-                </form>
-                <form class="aside_form" action="">
-                    <p>Suscribirse</p>
-                    <label for="">Correo Electrónico</label>
-                    <input type="text">
-                </form>
-            </aside>
-        </section>
-        <section class="articles container">
-            <article class="articles_box">
-                <a href="">
-                    <picture class="article_image_ppal">
-                        <img src="" alt="">
-                    </picture>
-                    <div class="content_art_ppal">
-                        <h3>titulo del articulo ppal.</h3>
-                        <p>Contenido</p>
+                </aside>
+            </section>
+            <section class="articles container">
+                <article class="articles_box_ppal">
+                    <a href="">
+                        <div class="content_art_ppal">
+                            <h3>titulo del articulo ppal.</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt nulla cumque natus perspiciatis, nihil temporibus fuga dolorem quaerat, dolore, tempora totam aperiam? Sit in maxime quae ad vero odit laboriosam, rerum ipsa corrupti itaque porro vel consequatur labore totam? Inventore asperiores explicabo commodi eveniet repudiandae perferendis ullam veritatis quasi!</p>
+                            <p class="vermas">ver mas..</p>
+                        </div>
+                        <picture class="article_image_ppal">
+                            <img src="https://xombit.com/files/2012/12/Costa-de-Glamorgan-Heritage-640x480.jpg" alt="">
+                        </picture>
+                    </a>
+                    <div class="cont_indicadores">
+                        <picture>
+                            <img src="./img/eye-line.svg" alt="">
+                            <p>12</p>
+                        </picture>
+                        <picture>
+                            <img src="./img/comment-outlined.svg" alt="">
+                            <p>5</p>
+                        </picture>
+                        <picture>
+                            <img src="./img/heart-bold.svg" alt="">
+                            <p>18</p>
+                        </picture>
                     </div>
-                </a>
-            </article>
-            <ul class="content_last_art">
-                <li>
-                    <article class="articles_box">
-                        <a href="">
-                            <picture class="article_image">
-                                <img src="" alt="">
-                            </picture>
-                            <div>
-                                <h3>titulo del articulo ppal.</h3>
-                                <p>Contenido</p>
+                </article>
+                <ul class="content_last_art">
+                    <li>
+                        <article class="articles_box">
+                            <a href="#">
+                                <picture class="article_image">
+                                    <img src="https://img.freepik.com/foto-gratis/santa-maddalena-cordillera-dolomitastirol-sur_661209-237.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1703894400&semt=sph" alt="">
+                                </picture>
+                                <div class="article_text_content">
+                                    <h3>titulo del articulo secundario.</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt nulla cumque natus perspiciatis, nihil temporibus fuga dolorem quaerat, dolore, tempora totam aperiam? Sit in maxime quae ad vero odit laboriosam, rerum ipsa corrupti itaque porro vel consequatur labore totam? Inventore asperiores explicabo commodi eveniet repudiandae perferendis ullam veritatis quasi!</p>
+                                    <p class="vermas">ver mas..</p>
+                                </div>
+                            </a>
+                            <div class="cont_indicadores">
+                                <picture>
+                                    <img src="./img/eye-line.svg" alt="">
+                                    <p>12</p>
+                                </picture>
+                                <picture>
+                                    <img src="./img/comment-outlined.svg" alt="">
+                                    <p>5</p>
+                                </picture>
+                                <picture>
+                                    <img src="./img/heart-bold.svg" alt="">
+                                    <p>18</p>
+                                </picture>
                             </div>
-                        </a>
-                    </article>
-                </li>
-                
-            </ul>
-        </section>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="articles_box">
+                            <a href="">
+                                <picture class="article_image">
+                                    <img src="https://img.freepik.com/foto-gratis/paisaje-niebla-matutina-montanas-globos-aerostaticos-al-amanecer_335224-794.jpg" alt="">
+                                </picture>
+                                <div class="article_text_content">
+                                    <h3>titulo del articulo secundario.</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt nulla cumque natus perspiciatis, nihil temporibus fuga dolorem quaerat, dolore, tempora totam aperiam? Sit in maxime quae ad vero odit laboriosam, rerum ipsa corrupti itaque porro vel consequatur labore totam? Inventore asperiores explicabo commodi eveniet repudiandae perferendis ullam veritatis quasi!</p>
+                                    <p class="vermas">ver mas..</p>
+                                </div>
+                            </a>
+                            <div class="cont_indicadores">
+                                <picture>
+                                    <img src="./img/eye-line.svg" alt="">
+                                    <p>12</p>
+                                </picture>
+                                <picture>
+                                    <img src="./img/comment-outlined.svg" alt="">
+                                    <p>5</p>
+                                </picture>
+                                <picture>
+                                    <img src="./img/heart-bold.svg" alt="">
+                                    <p>18</p>
+                                </picture>
+                            </div>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="articles_box">
+                            <a href="">
+                                <picture class="article_image">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPX2Cc_sJyCVoN7nnXOon5HQuFlkXPBRKwmEtocm3OUvJXVWUdcCfg7EAhu901mj8HBiM&usqp=CAU" alt="">
+                                </picture>
+                                <div class="article_text_content">
+                                    <h3>titulo del articulo secundario.</h3>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet deserunt nulla cumque natus perspiciatis, nihil temporibus fuga dolorem quaerat, dolore, tempora totam aperiam? Sit in maxime quae ad vero odit laboriosam, rerum ipsa corrupti itaque porro vel consequatur labore totam? Inventore asperiores explicabo commodi eveniet repudiandae perferendis ullam veritatis quasi!</p>
+                                    <p class="vermas">ver mas..</p>
+                                </div>
+                            </a>
+                            <div class="cont_indicadores">
+                                <picture>
+                                    <img src="./img/eye-line.svg" alt="">
+                                    <p>12</p>
+                                </picture>
+                                <picture>
+                                    <img src="./img/comment-outlined.svg" alt="">
+                                    <p>5</p>
+                                </picture>
+                                <picture>
+                                    <img src="./img/heart-bold.svg" alt="">
+                                    <p>18</p>
+                                </picture>
+                            </div>
+                        </article>
+                    </li>
+                    
+                </ul>
+            </section>
+        </div>
     </main>
     <footer class="footer">
         <nav class="footer_nav container">
@@ -92,8 +183,26 @@
                 <img src="./img/titulo_blanco.svg" alt="">
             </picture>
         </nav>
-        <p class="footer_derechos">Sitio web desarrollado por el autor del servicio</p>
-        <p class="footer_copy">Todos los derechos reservados</p>
+        <div class="derechos_content">
+            <p class="footer_derechos">Sitio web desarrollado por el autor del servicio</p>
+            <p class="footer_copy">Todos los derechos reservados</p>
+        </div>
     </footer>
+    <!-- <p style="font-size:1.25em;">links de barra de menu</p>
+    <p style="font-size:4.6em;">CONTACTANOS</p>
+    <p style="font-size:1.5em;">Marco de trabajo “El núcleo”</p>
+    <p style="font-size:6em;">Promovemos</p>
+    <p style="font-size:2.5em;">Bienestar, Adaptabilidad y 
+        <p style="font-size:2em; font-weight: bold;">Titular en negrita</p>
+        <p style="font-size:1.55em; font-weight: bold;">Titulo del artículo - lista post</p>
+    <p style="font-size:2em ;">Titular sin negrita</p>
+    <p style="font-size:1.5em ;">Texto de artículos</p>
+    <p style="font-size:1.25em;">Buscar - barra lateral </p>
+    <p style="font-size:0.875em;">Encontrar artículo - barra lateral</p>
+    <p style="font-size: 1.25em ;">Resumen - lista post</p>
+    <p style="font-size:0.875em;">Link - vista post</p>
+        Desarrollo Personal</p>
+        <p style="font-size: 0.9375em ;">Sitio web desarrollado por el autor del servicio</p>
+        <p style="font-size:0.8125em;">Todos los derechos reservados</p> -->
 </body>
 </html>
